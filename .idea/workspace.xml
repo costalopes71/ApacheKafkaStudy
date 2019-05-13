@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9100446d-9b00-45df-b404-41bf28535206" name="Default Changelist" comment="" />
+    <list default="true" id="9100446d-9b00-45df-b404-41bf28535206" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/KafkaConsumerAssignApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/KafkaConsumerSubscribeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaGroupProducerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/main/KafkaProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/producer/KafkaProducerApp.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +43,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/main/KafkaProducerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumers/KafkaConsumerSubscribeApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumers/KafkaConsumerAssignApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaGroupProducerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp04.java" />
       </list>
     </option>
   </component>
@@ -42,10 +61,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1507" />
+    <option name="x" value="1571" />
     <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="728" />
+    <option name="width" value="1161" />
+    <option name="height" value="650" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -61,12 +80,20 @@
               <item name="kafkasamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApacheKafkaGettingStarted_workspace" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kafkasamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApacheKafkaGettingStarted_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,13 +107,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="KafkaProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.main.KafkaProducerApp" />
+  <component name="RunManager" selected="Application.KafkaGroupProducerApp">
+    <configuration name="KafkaConsumerGroupApp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.consumer.group.KafkaConsumerGroupApp01" />
       <module name="ApacheKafkaGettingStarted_workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.costalopes.apachekafkastudy.main.*" />
+          <option name="PATTERN" value="com.costalopes.apachekafkastudy.consumer.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerGroupApp02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.consumer.group.KafkaConsumerGroupApp02" />
+      <module name="ApacheKafkaGettingStarted_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.costalopes.apachekafkastudy.consumer.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerGroupApp03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.consumer.group.KafkaConsumerGroupApp03" />
+      <module name="ApacheKafkaGettingStarted_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.costalopes.apachekafkastudy.consumer.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerGroupApp04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.consumer.group.KafkaConsumerGroupApp04" />
+      <module name="ApacheKafkaGettingStarted_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.costalopes.apachekafkastudy.consumer.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaGroupProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.costalopes.apachekafkastudy.consumer.group.KafkaGroupProducerApp" />
+      <module name="ApacheKafkaGettingStarted_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.costalopes.apachekafkastudy.consumer.group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,7 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KafkaProducerApp" />
+        <item itemvalue="Application.KafkaGroupProducerApp" />
+        <item itemvalue="Application.KafkaConsumerGroupApp04" />
+        <item itemvalue="Application.KafkaConsumerGroupApp02" />
+        <item itemvalue="Application.KafkaConsumerGroupApp03" />
+        <item itemvalue="Application.KafkaConsumerGroupApp01" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +199,7 @@
   <component name="ToolWindowManager">
     <frame x="1507" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28172386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -124,10 +207,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7068404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -135,6 +217,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -181,13 +264,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/main/KafkaProducerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/producer/KafkaProducerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#726#753#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/KafkaConsumerSubscribeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/KafkaConsumerAssignApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaGroupProducerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/costalopes/apachekafkastudy/consumer/group/KafkaConsumerGroupApp01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
